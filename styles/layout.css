@@ -504,7 +504,6 @@ background-color: rgba(217, 148, 65, 0.7);
 /*Formulario de contacto y seccion "nosotros"*/
 .formularioct{
   height: 100%;
-  left: 24%
 }
 
 * {
@@ -1010,13 +1009,13 @@ footer{
   margin-bottom: 5px;
 }
 
- @font-face{
+@font-face{
   font-family:Agency Bold;
-  src: url(../fuentes/AGENCYB.ttf);
+  src: url(../AGENCYB.ttf);
 }
 @font-face{
   font-family:Agency Normal;
-  src: url(../fuentes/AGENCYR.ttf);
+  src: url(../AGENCYR.ttf);
 }
  
 @media (max-width: 880px) {
