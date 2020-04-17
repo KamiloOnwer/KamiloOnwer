@@ -296,10 +296,12 @@ con hover imagen*/
   bottom: 20%;
   right: 10%;
   pointer-events: none;
+  z-index: 0
 }
 
 .inner {
   font-size: 29px;
+  z-index: 0;  
   position: relative;
   padding: 1.66em 3em;
   background: #FFFFFF;
@@ -309,6 +311,7 @@ con hover imagen*/
 .inner h3{
   font-family: Agency Bold;
   font-size: 38px;
+  z-index: 1;
 }
 .info:before {
   content: "";
@@ -362,6 +365,12 @@ con hover imagen*/
   cursor: default;
 }
 
+.portafoliosamuel a{
+  font-size: 105px;
+}
+
+
+
 
 @media (max-width: 620px) {
   body {
@@ -369,7 +378,7 @@ con hover imagen*/
     line-height: 1.5em;
   }
   .info {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-width: 100%;
     bottom: 0;

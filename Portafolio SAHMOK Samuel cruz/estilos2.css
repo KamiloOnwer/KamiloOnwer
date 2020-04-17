@@ -1,0 +1,76 @@
+
+@media (max-width: 1200px min-width: 576px){
+
+}
+body{
+	background-image: url(img/backgroundsahmok2.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+.color1 {
+	color:#fff;
+}
+
+.color2 {
+	color:#fff;
+}
+.color3{
+	background-color: brown;
+}
+.color4{
+	background-color: orange;
+}
+article{
+	color:#fff;
+}
+footer{
+	background: orange;
+	color:#fff;
+	align-items: center;
+}
+
+footer:hover{
+	background: white;
+}
+a:hover{
+	background:red;
+}
+
+div h1{
+	font-family: 'Merriweather', serif;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 50px;
+	opacity: 6%;
+}
+
+p{
+	font-family: serif;
+	color: white;
+	font-size: 17px;
+	text-align: justify;
+}
+
+h3{
+	font-family: 'Merriweather', serif;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 100px;
+}
+
+h4{
+	font-family: 'courier new', serif;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 20px;
+}
+
+button{
+	font-family: serif;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 -1px black;
+	font-size: 1000px;
+}
+
+
