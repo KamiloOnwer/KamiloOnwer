@@ -4,6 +4,7 @@
 <head>
   <title>Eneu</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <link rel="stylesheet" href="styles/layout.css" type="text/css">
   <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="styles/animate.css" type="text/css">
@@ -12,7 +13,7 @@
 <embed src="media/audiofondo.mp3" autostarty="true" loop="true" volumen="80" width="0"height="0">
   <header id="header" class="clear">
     <!-- los links de menus se han cambiado para que en lugar de referir a una de las otras opaginas index hagan un scroll suave vertical hasta la seccion mencionada, eso para en caso de necesitar añadir de nuevo las paginas se pueda hacer facil -->
-      <nav class="navbar container-fluid">
+      <nav class="col-sm-12 navbar container-fluid">
         <ul>
           <li>
           <b><a href="#sec1">Inicio</a></b>
@@ -37,27 +38,6 @@
 
     </header>
 <!--  -->
-<div class="container">
-  <div class="row">
-    <di class="col-lg-12">
-      <!-- titulo -->
-    </di>
-  </div>
-  <div class="row">
-    <di class="col-lg-12">
-      <!-- párrafo -->
-    </di>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <!-- imagen1 -->
-    </div>
-    <div class="col-md-6">
-      <!-- imagen1 -->
-    </div>
-  </div>
-</div>
-
   <div class="container container-negro">
     
     <!-- contenidos -->
@@ -98,7 +78,7 @@
             <img src="images/collageweb.png" alt="">
         </div>
         <br>
-              <p>
+              <p class="sec2reveal">
                 La juventud Bogotana de 14 a 25 años está siendo abrumada por una ola de estrés, causando afectaciones psicológicas y serios vínculos malsanos con la autoestima. La raíz de estos problemas es con regularidad la increíble velocidad en que el mundo moderno, obliga a los jóvenes a ser alguien en la vida, buscar una actividad a desempeñar toda su vida, encontrar aprobación social, pertenecer a un gremio y estas situaciones activan la competitividad, que no permite un pensamiento crítico ante la vida; a esto le sumamos el crecimiento exponencial de la población y vemos como cada día la búsqueda de estas oportunidades se hace más infructuosa, porque se sigue un status quo, es decir la diversidad es lo que hace falta en la sociedad.
               </p>
             </div>
@@ -364,6 +344,38 @@ var slideUp = {
 <script>
 
 ScrollReveal().reveal('.flech', {
+  delay: 350, 
+  reset:true,
+
+});
+
+var slideUp = {
+    distance: '150%',
+    origin: 'left',
+    opacity: null
+};
+ 
+</script>
+
+<script>
+
+ScrollReveal().reveal('.sec2reveal', {
+  delay: 350, 
+  reset:true,
+
+});
+
+var slideUp = {
+    distance: '150%',
+    origin: 'left',
+    opacity: null
+};
+ 
+</script>
+
+<script>
+
+ScrollReveal().reveal('.p3uno', {
   delay: 350, 
   reset:true,
 

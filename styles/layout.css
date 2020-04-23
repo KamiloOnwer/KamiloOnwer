@@ -369,9 +369,6 @@ con hover imagen*/
   font-size: 105px;
 }
 
-
-
-
 @media (max-width: 620px) {
   body {
     font-size: 13px;
@@ -1089,4 +1086,19 @@ box-shadow:inset -4px 16px 45px #f55f0e;
                
               }
 
-              /*FIN DEL FOOTER STYLE*/
+              /*FIN DEL FOOTER STYLE
+
+/*Responsive*/
+
+/* Smartphones (horizontal y vertical) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* estilos */
+
+}
+
+(max-width: 1200px)
+(max-width: 992px)
+(max-width: 768px)
+(max-width: 576px)
